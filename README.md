@@ -2,11 +2,14 @@
 
 > From a prospect's name to a meeting brief and follow-up draft in two minutes.
 
-![status](https://img.shields.io/badge/status-planned-lightgrey) ![phase](https://img.shields.io/badge/sprint-Weeks%209--10-blue)
+![status](https://img.shields.io/badge/status-design%20stage-lightgrey) ![sprint](https://img.shields.io/badge/sprint-Weeks%209--10-blue) ![project](https://img.shields.io/badge/portfolio-05%2F08-0891b2)
 
-**Category:** AI Agents & Automation · **Domain:** B2B Sales · **Stack:** Python · LLM agents · n8n · CRM API
-
-Project 05/08 of my *Data & AI × Business Consulting* portfolio. 🚧 **Design stage, no implementation yet.**
+| | |
+|---|---|
+| **Category** | AI Agents & Automation |
+| **Domain** | B2B Sales |
+| **Stack** | Python · LLM agents · n8n · CRM API |
+| **Status** | 🚧 Scoped — implementation not started |
 
 ## Overview
 
@@ -15,6 +18,13 @@ An agent that does a salesperson's homework: researches the prospect company, en
 ## Business problem
 
 Sales teams spend hours on prospect research, meeting prep, note-taking and follow-up writing instead of selling.
+
+## What this project demonstrates
+
+- Agentic workflows orchestrated with n8n
+- Tool use and data enrichment
+- Governance: no external action without human approval
+- Measuring automation value as time saved
 
 ## Key points
 
@@ -63,14 +73,16 @@ Follow-up draft → CRM update / notification
 src/agent/  n8n/  templates/  docs/
 ```
 
-## Status
+## Roadmap
 
 - [x] Scope and README
-- [ ] Data
-- [ ] Implementation
-- [ ] Evaluation & business impact
-- [ ] Demo and write-up
+- [ ] Data collection / generation
+- [ ] Core implementation
+- [ ] Evaluation and business-impact estimate
+- [ ] Demo, write-up and interview notes
 
 ---
 
-*Author: Amine Charrou · Final-year Data Science & AI engineering student, ENSA Agadir*
+Part of my **Data & AI × Business Consulting** portfolio, a 16-week sprint of 8 projects going from data and BI to ML, GenAI, agents, automation and AI strategy. See all projects on my [GitHub profile](https://github.com/Amine-Charrou).
+
+*Amine Charrou · Final-year Data Science & AI engineering student, ENSA Agadir · [LinkedIn](https://www.linkedin.com/in/amine-charrou/)*
